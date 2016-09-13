@@ -1,5 +1,4 @@
 package controleur;
-
 import vue.EntreeJeu;
 
 public class Controle {
@@ -11,7 +10,7 @@ public class Controle {
 	}
 
 	public Controle() {
-		this.frmEntreeJeu = new EntreeJeu(this);
+		this.frmEntreeJeu = new EntreeJeu();
 		frmEntreeJeu.setVisible(true);
 	}
 }
