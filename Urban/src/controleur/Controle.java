@@ -12,7 +12,7 @@ public class Controle {
 	}
 
 	public Controle() {
-		frmEntreeJeu = new frmEntreeJeu;
+		//frmEntreeJeu = new frmEntreeJeu;
 		frmEntreeJeu.setVisible(true);
 	}
 }
