@@ -3,7 +3,6 @@ package controleur;
 import vue.EntreeJeu;
 
 public class Controle {
-
 	private EntreeJeu frmEntreeJeu;
 
 	public static void main(String[] args) {
@@ -12,7 +11,7 @@ public class Controle {
 	}
 
 	public Controle() {
-		//frmEntreeJeu = new frmEntreeJeu;
+		this.frmEntreeJeu = new EntreeJeu(this);
 		frmEntreeJeu.setVisible(true);
 	}
 }
